@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Arquitecturas, lógica y despliegue de aplicaciones',
+    descripcionCurso:
+      'El componente formativo está orientado a entregar los conocimientos sobre el manejo de las arquitecturas para la construcción de aplicaciones, lógica a aplicar para el funcionamiento de esta y el despliegue de la aplicación en un servidor de producción.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,27 +32,32 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es un patrón de arquitectura?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lenguaje de consulta',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Integración de la capa lógica en las interfaces de usuario',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Servicios web',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Despliegue de aplicaciones en la Web',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +108,82 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Lenguaje de consulta',
+      referencia:
+        '1Keydata.com. (2022). <em>Tutorial de SQL: curso de SQL.</em> 1Keydata.com. ',
+      tipo: 'Tutorial web',
+      link: 'https://www.1keydata.com/es/sql/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Servicios web',
+      referencia:
+        'Rodríguez de Sepúlveda Maillo, D. (2015). <em>Administración de servicios web.</em> Ra-Ma',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
+    },
+    {
+      tema: 'Servicios web',
+      referencia:
+        'Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y  Abrutsky, M. (2012). Bases de datos. Alfaomega Grupo Editor. ',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Bases de datos',
+      significado:
+        'Es una aplicación que permite el almacenamiento de información de manera organizada y luego poder recuperar dicha información.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'CSS',
+      significado:
+        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página web.',
+    },
+    {
+      termino: 'Formulario',
+      significado:
+        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página web.',
+    },
+    {
+      termino: 'Front-end',
+      significado:
+        'Es el nombre técnico que recibe la parte del sistema que se encarga de la interacción con el usuario final.',
+    },
+    {
+      termino: 'HTML',
+      significado:
+        'Lenguaje de etiquetado que permite estructurar una página web.',
+    },
+    {
+      termino: 'MVC',
+      significado:
+        'Modelo Vista Controlador, es una estructura de trabajo que permite independizar cada una de las partes de un programa, en este caso un sitio web o aplicativo web.',
+    },
+    {
+      termino: 'Servidor web',
+      significado:
+        'Es una máquina dedicada a colocar los archivos de ejecución de una página web y hacerla visible para muchos usuarios.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> <strong>Mozilla recursos para desarrolladores.</strong>Pavón, J. (2008). <em>Estructura de las aplicaciones orientadas a objetos. El patrón Modelo-Vista-Controlador (MVC).</em> <strong>Universidad Complutense de Madrid</strong>',
+      link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf ',
+    },
+    {
+      referencia:
+        '<strong>Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y Abrutsky, M.</strong> (2012). Bases de datos. <strong>Alfaomega Grupo Editor.</strong> https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
       link: '',
+    },
+    {
+      referencia:
+        '<strong>Rodríguez de Sepúlveda Maillo,</strong> D. (2015). Administración de servicios web. <strong>Ra-Ma.</strong> ',
+      link:
+        ' https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
     },
   ],
   creditos: [
@@ -151,10 +207,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Zvi Daniel Grosman Landáez',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Dulfrán Antonio Montaño Montaño',
+          cargo: 'Experto temático',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -162,13 +227,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polánco Muñoz ',
           cargo: 'Diseñador web',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
