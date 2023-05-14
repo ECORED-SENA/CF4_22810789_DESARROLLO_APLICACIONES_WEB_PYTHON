@@ -1,19 +1,214 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: leftRight 3s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 70%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: topDown 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 27%
+    right: 20%
+  &-3
+    animation: rightLeft 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 74%
+    right: 15%
 
 
-@keyframes float1
+@keyframes topDown
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+@keyframes leftRight
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes rightLeft
+  0%
+    transform: translateX(0px)
+
+  100%
+    transform: translateX(20px)
+
+ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.banner-principal .tarjeta
+  background-position: left 50%
+
+.titulo-sexto h5 span
+  font-weight: 400
+
+.figura
+  position: relative
+  figcaption
+    background: #EBE7FF
+    border-radius: 4px
+    font-weight: 400
+
+//fondos
+
+.bg
+  &-c1
+    background: #D5CEF8
+    background-image: url(../assets/curso/temas/intro/fondo-cajon.svg)
+    background-position: right bottom
+    border-radius: 20px
+  &-c2
+    background: rgba(100,178,255,.26)
+    border-radius: 12px
+  &-c3
+    background-image: url(../assets/curso/temas/bg/fondo-t1.svg)
+    margin-inline: -3.2rem !important
+    background-repeat: repeat-x
+    background-size: cover
+    background-position: top
+    margin-bottom: -48px
+  &-c4
+    background: #E4DFFF
+    border-radius: 16px
+    position: relative
+  &-c5
+    background:  #F2EFFF
+    border-radius: 16px
+    position: relative
+    @media screen and (max-width: 991px)
+      background: transparent
+      position: static
+      padding-top: 1.6rem
+
+    &::before
+      position: absolute
+      content: ""
+      left: 0
+      top: 12%
+      width: 54px
+      height: 106px
+      background-image: url(../assets/curso/temas/tema1/float-2.png)
+      @media screen and (max-width: 991px)
+        width: 0
+
+    &::after
+      position: absolute
+      content: ""
+      bottom: 0
+      right: 0
+      width: 176px
+      height: 104px
+      background-image: url(../assets/curso/temas/tema1/float-3.png)
+
+  &-c5-body
+    padding-top: 3.5rem
+    padding-left: 4rem
+    padding-right: 4rem
+    padding-bottom: 3rem
+    @media screen and (max-width: 1399px)
+      padding-top: 2.5rem
+      padding-bottom: 2rem
+      font-size: .92rem
+      padding-right: 3rem
+
+    @media screen and (max-width: 991px)
+      font-size: 1rem
+      padding: 0
+
+  &-c6
+    background-image: url(../assets/curso/temas/bg/fondo-celeste.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: left bottom
+
+  &-c7-t1
+    background: #E4DFFF
+    border-radius: 16px
+    position: relative
+    &::after
+      position: absolute
+      content: ""
+      top: -45px
+      right: 0
+      width: 400px
+      height: 288px
+      background-image: url(../assets/curso/temas/tema1/img6.png)
+      background-size: contain
+      background-repeat: no-repeat
+      @media screen and (max-width: 1399px)
+        width: 350px
+        height: 252px
+        top: -20px
+      @media screen and (max-width: 1199px)
+        width: 0px
+
+  &-c8
+    background: #D6EAFF
+    border-radius: 16px
+
+  &-c9
+    background: #C1E0FF
+    border-radius: 12px
+
+  &-c10
+    background: #221B6B
+    border-radius: 16px
+
+  &-c11
+    background:  #F2EFFF
+    border-radius: 16px
+    position: relative
+    @media screen and (max-width: 991px)
+      background: transparent
+      position: static
+      padding-top: 1.6rem
+
+    &::after
+      position: absolute
+      content: ""
+      bottom: 0
+      right: 0
+      width: 176px
+      height: 104px
+      background-image: url(../assets/curso/temas/tema1/float-3.png)
+
+  &-c12
+    background-image: url(../assets/curso/temas/bg/fondo-t4.svg)
+    margin-inline: -3.2rem !important
+    background-repeat: repeat-x
+    background-size: cover
+    background-position: top
+    margin-bottom: -48px
+
+.tarjeta--lila
+  background-image: url(../assets/curso/temas/bg/slide_lila.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom left
+
+.btn-subtitulo
+  background-color: $color-secundario
+  position: relative
+  border-right: 10px solid #64B2FF
+  color: #fff
+  padding: .35rem 2rem .35rem 2.5rem
+  border-radius: 10px
+  &::before
+    content: ""
+    position: absolute
+    background-image: url(../assets/curso/temas/bg/btn-decoracion-float1.png)
+    top: -10px
+    left: 4px
+    width: 29px
+    height: 56px
+
+
