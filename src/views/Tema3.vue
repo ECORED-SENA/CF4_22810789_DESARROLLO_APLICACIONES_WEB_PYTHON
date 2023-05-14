@@ -7,7 +7,7 @@
         span 3
       h1 Integración de la capa lógica en las interfaces de usuario
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
       )
@@ -20,17 +20,17 @@
 
     .row.mb-4
       .col-lg-8
-        p Es importante que tenga en cuenta que este es un proceso de intercambio de estructuras, las cuales tienen como objetivo dividir las funcionalidades del sistema en espacios propios.
+        p(data-aos="fade-up") Es importante que tenga en cuenta que este es un proceso de intercambio de estructuras, las cuales tienen como objetivo dividir las funcionalidades del sistema en espacios propios.
 
-        p En pocas palabras, la vista se encarga de visualizar los formularios, el controlador se encarga de verificar dichos datos y procesarlos, y el modelo de almacenar y recuperar la información.
+        p(data-aos="fade-up") En pocas palabras, la vista se encarga de visualizar los formularios, el controlador se encarga de verificar dichos datos y procesarlos, y el modelo de almacenar y recuperar la información.
 
-        p De acuerdo con la información y lo requerido por el usuario verá más adelante un ejemplo de cómo realizar este proceso paso a paso. Pero inicialmente, debe definir el framework que utilizará para la creación de su proyecto, Flask, vea ahora algunos conceptos básicos sobre este framework.
+        p(data-aos="fade-up") De acuerdo con la información y lo requerido por el usuario verá más adelante un ejemplo de cómo realizar este proceso paso a paso. Pero inicialmente, debe definir el framework que utilizará para la creación de su proyecto, Flask, vea ahora algunos conceptos básicos sobre este framework.
       .col-lg-4
         figure.d-none.d-lg-block
-          img(src="@/assets/curso/temas/tema3/img2.svg")
+          img(src="@/assets/curso/temas/tema3/img2.svg")(data-aos="zoom-in")
 
     .bg-c2.p-5.pb-4.mb-5
-      .bg-c5.mb-4
+      .bg-c5.mb-4(data-aos="fade-up")
         .bg-c5-body
           h5 ¿Qué es Flask?
           p Es un framework minimalista escrito en Python que permite crear aplicaciones web rápidamente y con un mínimo número de líneas de código.
@@ -43,7 +43,7 @@
 
           p A continuación verá un paso a paso de la creación de una página web en Python utilizando el framework de Flask y conectado con una base de datos MySQL, como se ha venido trabajando en este curso.
 
-      .bg-c9.p-3
+      .bg-c9.p-3(data-aos="fade-up")
         p.mb-0 #[strong Nota:] antes de comenzar descargue los archivos para la creación de las vistas en el Anexo. Archivos para creación de las vistas.
 
     .tarjeta.tarjeta--lila.p-4.mb-5
@@ -83,7 +83,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/slide-4.png')
 
-    p.my-5 Ya luego de estos pasos iniciales puede proceder a la creación de la base de datos y a las configuraciones que llevarán a la ejecución del programa:
+    p.my-5(data-aos="fade-up") Ya luego de estos pasos iniciales puede proceder a la creación de la base de datos y a las configuraciones que llevarán a la ejecución del programa:
 
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
@@ -196,7 +196,7 @@
                 img(src='@/assets/curso/temas/tema3/slide-14.png')
 
 
-    p.mb-4 Como se dijo con antelación, para la creación de una página web en Python utilizando el framework de Flask y conectado a una base de datos MySQL se tuvo que dar algunos pasos previos que llevan al momento de la ejecución del programa, como se verá en el siguiente video:
+    p.mb-4(data-aos="fade-up") Como se dijo con antelación, para la creación de una página web en Python utilizando el framework de Flask y conectado a una base de datos MySQL se tuvo que dar algunos pasos previos que llevan al momento de la ejecución del programa, como se verá en el siguiente video:
 
     figure
       .video

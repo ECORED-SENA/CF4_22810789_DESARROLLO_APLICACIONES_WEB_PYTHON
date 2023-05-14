@@ -7,9 +7,9 @@
         span 5
       h1 Manejo y control de versiones
 
-    p En este espacio se realizará el despliegue de la aplicación construida en Python, cabe aclarar que existen muchos hosting y sitios donde se puede llevar a cabo el despliegue de su sitio; pero va a utilizar un servicio gratuito llamado pythonanywhere.com el cual proporcionará todos los recursos para colocar en marcha su sitio sin ninguna dificultad.
+    p(data-aos="fade-up") En este espacio se realizará el despliegue de la aplicación construida en Python, cabe aclarar que existen muchos hosting y sitios donde se puede llevar a cabo el despliegue de su sitio; pero va a utilizar un servicio gratuito llamado pythonanywhere.com el cual proporcionará todos los recursos para colocar en marcha su sitio sin ninguna dificultad.
 
-    p A continuación se mostrarán los pasos previos para lograr dicho objetivo:
+    p(data-aos="fade-left") A continuación se mostrarán los pasos previos para lograr dicho objetivo:
 
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
@@ -64,12 +64,12 @@
 
     .row.align-items-center.mb-5
       .col-xl-7
-        .bg-c4.p-5
+        .bg-c4.p-5(data-aos="fade-right")
           p Luego de creado el sitio a través del servicio (pythonanywhere) siguiendo los pasos indicados, se continuará con su despliegue.
 
           p.mb-0 Ahora se mostrará el paso a paso, tenga en cuenta que si bien el ejercicio se hace con base en el ejemplo planteado servirá de guía para que lo pueda hacer, vea el despliegue en el video
       .col-xl-5
-        img(src='@/assets/curso/temas/tema5/img-1.png')
+        img(src='@/assets/curso/temas/tema5/img-1.png')(data-aos="zoom-in")
 
     figure.mb-5
       .video
@@ -77,9 +77,9 @@
       figcaption Video. Título del video.
 
 
-    p Como se pudo observar en el video se acaba de ver la puesta a punto del sitio a través de un servidor, logrando su visualización y la colocación de un dato para verificar que todo funciona de manera correcta.
+    p(data-aos="fade-up") Como se pudo observar en el video se acaba de ver la puesta a punto del sitio a través de un servidor, logrando su visualización y la colocación de un dato para verificar que todo funciona de manera correcta.
 
-    p.mb-5 Es importante tener en cuenta que se deben seguir los pasos de manera continua para lograr el objetivo de forma correcta y que si bien como se indicó este es un ejemplo a través del servidor gratuito propuesto, podrá seguir esta cadena lógica de pasos para poner a punto su sitio en este u otro servidor.
+    p.mb-5(data-aos="fade-up") Es importante tener en cuenta que se deben seguir los pasos de manera continua para lograr el objetivo de forma correcta y que si bien como se indicó este es un ejemplo a través del servidor gratuito propuesto, podrá seguir esta cadena lógica de pasos para poner a punto su sitio en este u otro servidor.
 
     .row.justify-content-center.mb-3
       .col-xl-7
