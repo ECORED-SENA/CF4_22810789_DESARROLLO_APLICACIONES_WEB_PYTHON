@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Arquitecturas, lógica y despliegue de aplicaciones',
     descripcionCurso:
-      'El componente formativo está orientado a entregar los conocimientos sobre el manejo de las arquitecturas para la construcción de aplicaciones, lógica a aplicar para el funcionamiento de esta y el despliegue de la aplicación en un servidor de producción.',
+      'El componente formativo está orientado a entregar los conocimientos sobre: el manejo de las arquitecturas para la construcción de aplicaciones, la lógica que se aplica para el funcionamiento de esta y el despliegue de la aplicación en un servidor de producción.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -55,13 +55,13 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Servicios web',
+        titulo: 'Servicios <em>web</em>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Despliegue de aplicaciones en la Web',
+        titulo: 'Despliegue de aplicaciones en la <em>Web</em>',
         desarrolloContenidos: true,
       },
     ],
@@ -115,11 +115,11 @@ export default {
       tema: 'Lenguaje de consulta',
       referencia:
         '1Keydata.com. (2022). <em>Tutorial de SQL: curso de SQL.</em> 1Keydata.com. ',
-      tipo: 'Tutorial web',
+      tipo: 'Tutorial <em>web</em>',
       link: 'https://www.1keydata.com/es/sql/',
     },
     {
-      tema: 'Servicios web',
+      tema: 'Servicios <em>web</em>',
       referencia:
         'Rodríguez de Sepúlveda Maillo, D. (2015). <em>Administración de servicios web.</em> Ra-Ma',
       tipo: 'Libro',
@@ -127,9 +127,9 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
     },
     {
-      tema: 'Servicios web',
+      tema: 'Servicios <em>web</em>',
       referencia:
-        'Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y  Abrutsky, M. (2012). Bases de datos. Alfaomega Grupo Editor. ',
+        'Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y  Abrutsky, M. (2012). <em>Bases de datos.</em> Alfaomega Grupo Editor. ',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
@@ -144,50 +144,51 @@ export default {
     {
       termino: 'CSS',
       significado:
-        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página web.',
+        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página <em>web</em>.',
     },
     {
       termino: 'Formulario',
       significado:
-        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página web.',
+        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página <em>web</em>.',
     },
     {
-      termino: 'Front-end',
+      termino: '<em>Front-end</em>',
       significado:
         'Es el nombre técnico que recibe la parte del sistema que se encarga de la interacción con el usuario final.',
     },
     {
       termino: 'HTML',
       significado:
-        'Lenguaje de etiquetado que permite estructurar una página web.',
+        'Lenguaje de etiquetado que permite estructurar una página <em>web</em>.',
     },
     {
       termino: 'MVC',
       significado:
-        'Modelo Vista Controlador, es una estructura de trabajo que permite independizar cada una de las partes de un programa, en este caso un sitio web o aplicativo web.',
+        'Modelo Vista Controlador, es una estructura de trabajo que permite independizar cada una de las partes de un programa, en este caso un sitio <em>web</em> o aplicativo <em>web</em>.',
     },
     {
-      termino: 'Servidor web',
+      termino: 'Servidor <em>web</em>.',
       significado:
-        'Es una máquina dedicada a colocar los archivos de ejecución de una página web y hacerla visible para muchos usuarios.',
+        'Es una máquina dedicada a colocar los archivos de ejecución de una página <em>web</em> y hacerla visible para muchos usuarios.',
     },
   ],
   referencias: [
     {
       referencia:
-        'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> <strong>Mozilla recursos para desarrolladores.</strong>Pavón, J. (2008). <em>Estructura de las aplicaciones orientadas a objetos. El patrón Modelo-Vista-Controlador (MVC).</em> <strong>Universidad Complutense de Madrid</strong>',
-      link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf ',
+        'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> <strong>Mozilla recursos para desarrolladores.</strong> Pavón, J. (2008). Estructura de las aplicaciones orientadas a objetos. <em>El patrón Modelo-Vista-Controlador (MVC).</em><strong>Universidad Complutense de Madrid.</strong>',
+      link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf',
     },
     {
       referencia:
-        '<strong>Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y Abrutsky, M.</strong> (2012). Bases de datos. <strong>Alfaomega Grupo Editor.</strong> https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
-      link: '',
-    },
-    {
-      referencia:
-        '<strong>Rodríguez de Sepúlveda Maillo,</strong> D. (2015). Administración de servicios web. <strong>Ra-Ma.</strong> ',
+        '<strong>Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y Abrutsky, M.</strong> (2012). <em>Bases de datos.</em> <strong>Alfaomega Grupo Editor.</strong>',
       link:
-        ' https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
+    },
+    {
+      referencia:
+        '<strong>Rodríguez de Sepúlveda Maillo,</strong> D. (2015). <em>Administración de servicios web.</em><strong>Ra-Ma.</strong> ',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
     },
   ],
   creditos: [
@@ -223,6 +224,11 @@ export default {
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],

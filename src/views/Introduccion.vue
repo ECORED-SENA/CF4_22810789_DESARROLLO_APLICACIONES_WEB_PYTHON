@@ -15,7 +15,7 @@
           figure
             img(src="@/assets/curso/temas/intro/img1.png", style="max-width: 170px")
         .col
-          p.mb-4 En los mercados actuales en la industria del #[em software] existen diferentes caminos y tecnologías a aplicar en la construcción de #[em software], muchas de ellas se orientan a la funcionalidad de estos, pero otras se encuentran enmarcadas en el ámbito y la capacidad de poder adaptarse a las necesidades cambiantes de los usuarios de hoy en día.
+          p.mb-4 En el mercado actual de la industria del #[em software] existen diferentes caminos y tecnologías a aplicar en la construcción de software, muchas de ellas se orientan a la funcionalidad, pero otras se encuentran enmarcadas en el ámbito y la capacidad de poder adaptarse a las necesidades cambiantes de los usuarios de hoy en día.
 
           p.mb-0 A través del siguiente video se dará una introducción a esta interesante temática:
 
