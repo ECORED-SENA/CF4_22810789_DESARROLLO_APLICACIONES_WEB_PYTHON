@@ -19,7 +19,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-auto.d-none.d-lg-block
-        img(src="@/assets/curso/temas/tema2/img2.svg", style= "width: 85px")(data-aos="zoom-in")
+        img(src="@/assets/curso/temas/tema2/img2.svg", style= "width: 85px", alt="")(data-aos="zoom-in")
       .col-lg
         p.mb-4(data-aos="fade-up") Es importante tener en cuenta que el lenguaje SQL es un estándar para todas las bases de datos. Existen algunas variaciones que se pueden dar dependiendo del fabricante del motor, pero son mínimas ya que debe regirse por el estándar SQL, implementado a nivel internacional.
         p(data-aos="fade-up") Hoy en día la información juega un papel fundamental para las organizaciones y las empresas a nivel mundial, siendo las bases de datos el sistema de almacenamiento principal de la información.
@@ -29,7 +29,7 @@
       .col-lg-8
         .bg-c2.mb-4.py-4.ps-0.pe-4
           .d-flex.justify-content-start.align-items-center
-            img(src="@/assets/curso/temas/tema1/icon-azul-2.svg", style="width: 53px").me-3(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/tema1/icon-azul-2.svg", style="width: 53px", alt="").me-3(data-aos="zoom-in")
             p.mb-0(data-aos="fade-up") Requiere que no solo se puedan manipular los datos de manera correcta en cuanto a su inserción, modificación y eliminación sino que también se puedan recuperar estos con mecanismos seguros y que garanticen que dicha información sea entregada de una manera legible y entendible para el usuario. Es allí donde el lenguaje SQL toma una gran importancia en los mercados actuales, ya que este permite personalizar la manera cómo se entregan los datos al usuario, dando información precisa y confiable. A continuación se presentan varios ejemplos sobre cómo utilizar este lenguaje de consultas.
 
 
@@ -38,7 +38,7 @@
         p(data-aos="fade-up") Antes de iniciar con el proceso de consultas, entonces, se deberá crear la base de datos, para lo cual se entregan las tablas necesarias con sus tipos de datos:
       .col-lg-4
         figure.d-none.d-lg-block
-          img(src="@/assets/curso/temas/tema2/img3.png")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema2/img3.png", alt="")(data-aos="zoom-in")
 
 
     .tarjeta.tarjeta--lila.p-4
@@ -50,7 +50,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema2/slide-1.png')(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/tema2/slide-1.png', alt="")(data-aos="zoom-in")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -69,7 +69,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema2/slide-2.png')
+                img(src='@/assets/curso/temas/tema2/slide-2.png', alt="")
 
 
           .row.my-lg-4
@@ -77,38 +77,38 @@
               p Tabla #[code.etiqueta tbl_estado]
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-3.png')
+                img(src='@/assets/curso/temas/tema2/slide-3.png', alt="La imagen muestra la configuración de la tabla tbl_estado, dentro de la cual se establecen dos registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar.")
 
           .row.my-lg-4
             .col-md-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta  tbl_tipo]
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-4.png')
+                img(src='@/assets/curso/temas/tema2/slide-4.png', alt="La imagen muestra la configuración de la tabla tbl_estado, dentro de la cual se establecen dos registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como Nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar.")
           .row.my-lg-4
             .col-md-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta tbl_referencia]
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-5.png')
+                img(src='@/assets/curso/temas/tema2/slide-5.png', alt="La imagen muestra la configuración de la tabla tbl_referencia, dentro de la cual se establecen tres registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como Nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar y para el tercer registro se dejan los mismo valores que el registro dos excepto el Name que será Bodega.")
           .row.my-lg-4
             .col-md-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta tbl_productos]
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-6.png')
+                img(src='@/assets/curso/temas/tema2/slide-6.png', alt="La imagen muestra la configuración de la tabla tbl_productos, dentro de la cual se establecen 10 registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se definen los 9 registros de igual forma exceptuando el valor Name, los cuales serán: Nombre, Descripcion, Stock, PrecioUND, PrecioVent, Stockmin, FKcodigo_tbl_tipo, FKCodigo_tbl_referencia, FKCodigo_tbl_estado. Los demás valores para esos registros serán type varchar, length 255, decimals vacio, not null y virtual sin marcar.")
           .row.my-lg-4
             .col-md-3.mb-4.mb-md-0
               p Como se puede observar en la imagen se tiene el listado de las tablas o entidades que hacen parte de la base de datos, en la cual se encuentra la información que se utilizará para realizar las consultas.
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-7.png')
+                img(src='@/assets/curso/temas/tema2/slide-7.png', alt="La imagen muestra el listado de las tablas o entidades que hacen parte de la base de datos en la cual se encuentra la información que utilizará para realizar las consultas.")
           .row.my-lg-4
             .col-md-3.mb-4.mb-md-0
               p Por último, se puede observar el modelo entidad relación de la base de datos donde se ilustra su distribución y la estructura de las tablas. Adicional a ello, se puede ver el tipo de datos que utiliza cada una y la extensión de estos.
             .col-md-9
               figure
-                img(src='@/assets/curso/temas/tema2/slide-8.png')
+                img(src='@/assets/curso/temas/tema2/slide-8.png', alt="La imagen muestra el diagrama del modelo entidad relación de la base de datos donde se ilustra la distribución de los datos, la estructura de las tablas y el tipo de datos que utiliza cada una junto con su correspondiente extensión.")
 
     p.mt-5 Luego de crear la base de datos, se invita a hacer todos estos pasos para que tenga una mejor comprensión.
 

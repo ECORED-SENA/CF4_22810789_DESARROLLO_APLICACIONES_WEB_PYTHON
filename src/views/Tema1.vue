@@ -70,14 +70,14 @@
 
     p.mb-4 Es un patrón en el diseño de #[em software] comúnmente utilizado para implementar las interfaces de usuario, los datos y la lógica de control. Enfatiza en una separación entre la lógica de negocios y su visualización.
 
-    p.mb-4 Esta "separación de preocupaciones" proporciona una mejor división del trabajo y una mejora en el mantenimiento. Ver figura.
+    p.mb-4 Esta "separación de preocupaciones" proporciona una mejor división del trabajo y una mejora en el mantenimiento. Ver figura 1.
 
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1. <br> #[span #[em Diagrama del MVC]]
         figure
-          img(src="@/assets/curso/temas/tema1/figura1.svg", alt="")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/figura1.svg", alt="La imagen muestra el diagrama del modelo vista controlador (MVC). En el diagrama, se representan los tres componentes principales del patrón de diseño MVC: el modelo, la vista y el controlador. El modelo se refiere a la capa de datos y la lógica de negocio, donde se almacenan y manipulan los datos. La vista se encarga de la presentación de la información al usuario, mostrando la interfaz gráfica y recopilando la entrada del usuario. El controlador actúa como intermediario entre el modelo y la vista, gestionando las acciones del usuario y coordinando las actualizaciones de datos y la actualización de la interfaz.")(data-aos="zoom-in")
 
 
     p.mb-5 Las tres partes del patrón (modelo, vista y controlador) de diseño de #[em software] MVC se pueden describir de la siguiente manera:
@@ -136,7 +136,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2. <br> #[span #[em  Modelo Vista #[em Template]]]
         figure.figura
-          img(src="@/assets/curso/temas/tema1/figura2.png", alt="")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/figura2.png", alt="La imagen muestra el diagrama del modelo vista template (MVT). En el diagrama, se representan los tres componentes principales del patrón de diseño MVT: el modelo, la vista y la plantilla (template).La vista se encarga de la presentación de la información al usuario, mostrando la interfaz gráfica y recopilando la entrada del usuario. La plantilla es responsable de generar la estructura y el diseño de la interfaz a partir de los datos proporcionados por el modelo.")(data-aos="zoom-in")
 
           figcaption  #[strong Nota.] Adaptado de <a href="https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-template/" target="_blank">https://docs.hektorprofe.net/django/web-personal/patron-mvt-modelo-vista-template/</a>
 
@@ -159,13 +159,13 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3. <br> #[span #[em  Modelo Cliente Servidor]]
         figure.figura
-          img(src="@/assets/curso/temas/tema1/figura3.svg", alt="")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/figura3.svg", alt="La imagen muestra el diagrama del modelo cliente-servidor, donde se representan dos componentes principales: el cliente y el servidor. El cliente solicita y consume los recursos o servicios proporcionados por el servidor, que es el sistema o programa encargado de proveerlos. La comunicación entre el cliente y el servidor se realiza a través de una red utilizando un protocolo de comunicación específico, como internet.")(data-aos="zoom-in")
 
 
     .bg-c8.p-4
       .row.align-items-center
         .col-lg-3
-          img(src="@/assets/curso/temas/tema1/img7.svg")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/img7.svg", alt="")(data-aos="zoom-in")
         .col-lg-9
           p Como se ve en la figura se tiene a tres clientes interactuando con el servidor a través del servicio de conectividad de Internet, lo que puede suceder es que cada uno de estos clientes se encuentra en diferentes partes del mundo y de esta manera pueden hacer uso de l1os recursos del aplicativo.
 

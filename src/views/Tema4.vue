@@ -9,9 +9,9 @@
 
 
     .row.align-items-center.mb-5
-      .col-xl-4.d-none.d-xl-block
+      .col-xl-4
         figure.mb-4.mb-xl-0
-          img(src='@/assets/curso/temas/tema4/img1.svg')(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema4/img1.svg', alt="", style="max-width: 400px")(data-aos="zoom-in").m-auto
       .col-xl-8
         p(data-aos="fade-up") Son un conjunto de tecnologías que permiten el acceso de la información de diferentes fuentes y aplicaciones.
 
@@ -28,7 +28,7 @@
 
 
     .bg-c12.mb-5
-      .px-5
+      .px-2.px-lg-5
         .bg-c9.p-4.mb-4
           p(data-aos="fade-left") Todos estos se encuentran soportados por servicios  #[em web]. Se entiende que dependiendo de las necesidades que se tengan se puede contratar según las capacidades técnicas requeridas, siendo su costo razonable de acuerdo con lo que ofrecen, convirtiéndose, además, en la ventaja competitiva para las organizaciones.
 
@@ -38,7 +38,7 @@
 
         .row.justify-content-center.mb-5
           .col-lg-auto.d-none.d-lg-block
-            img(src="@/assets/curso/temas/tema4/img2.svg", style= "width: 85px")(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/tema4/img2.svg", style= "width: 85px", alt="")(data-aos="zoom-in")
           .col-lg
             p.mb-4(data-aos="fade-left") Se sabe que las comunicaciones son un punto importante hoy en día ya que todo está conectado con diversas fuentes de información y aplicaciones de propósito específico y general; es decir, la comunicación tal y como se ve hoy en día no se visualizaba de esa manera hace muchos años. La mayoría de las aplicaciones solucionaban problemas de manera local y solo algunos servicios tales como correo electrónico y consultas eran los que requerían la conectividad a Internet.
 
@@ -82,7 +82,7 @@
     .bg-c10.p-4.mb-5
       .row
         .col-lg-auto.d-none.d-lg-block
-          img(src="@/assets/curso/temas/tema4/img3.svg", style= "width: 90px")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema4/img3.svg", style= "width: 90px", alt="")(data-aos="zoom-in")
         .col
           p.mb-0.text-white  Un cliente ingresa a través de una interfaz gráfica a la página de un sitio de un agente de viajes. Este tiene un servicio web instalado que proporciona información y datos al usuario sobre el proceso que este implica, pero a su vez está conectado con otra interfaz que permite, por ejemplo, si el cliente requiere solicitar alojamiento en algún hotel a través de la página #[em web] lo podrá hacer o si requiere utilizar los servicios del banco para pagar su reservación, también, ya que tiene la conexión con dichos procesos y servicios.
 
@@ -91,7 +91,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4. <br> #[span #[em Servicios web]]
         figure.figura
-          img(src="@/assets/curso/temas/tema4/figura4.svg")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema4/figura4.svg", alt="La imagen muestra un diagrama que representa un ejemplo de servicios web de una agencia de viajes. En el diagrama, se pueden identificar diferentes componentes y funcionalidades relacionadas con los servicios ofrecidos por la agencia. Se visualizan módulos y además, se observan conexiones y flujos de información entre los diferentes servicios, indicando la interacción y dependencia entre ellos.")(data-aos="zoom-in")
 
 
     p Esto se puede observar en la páginas de #[em e-commerce], en las cuales se ofrecen los servicios de pagos en línea, entre otros. Este es un claro ejemplo del uso de servicios web, ya que la aplicación de #[em e-commerce] está instalada en un servidor y está siendo administrada por una empresa o particular; pero en cierto modo, tiene la posibilidad de realizar el pago en línea y es allí donde entra el proceso toma fuerza, ya que al momento que se desee cancelar y utilizar medios electrónicos automáticamente se redireccionará al cliente a la página del banco para realizar el proceso.

@@ -168,10 +168,10 @@
     background:  #F2EFFF
     border-radius: 16px
     position: relative
-    @media screen and (max-width: 991px)
+    /*@media screen and (max-width: 991px)
       background: transparent
       position: static
-      padding-top: 1.6rem
+      padding-top: 1.6rem*/
 
     &::after
       position: absolute
@@ -189,6 +189,10 @@
     background-size: cover
     background-position: top
     margin-bottom: -48px
+    @media screen and (max-width: $bp-max-md)
+      background: none
+      margin-inline: 0 !important
+      margin-bottom: 0
 
 .tarjeta--lila
   background-image: url(../assets/curso/temas/bg/slide_lila.svg)

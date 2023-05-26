@@ -25,7 +25,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema5/slide-1.png')
+                img(src='@/assets/curso/temas/tema5/slide-1.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -36,7 +36,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema5/slide-2.png')
+                img(src='@/assets/curso/temas/tema5/slide-2.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -46,7 +46,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema5/slide-3.png')
+                img(src='@/assets/curso/temas/tema5/slide-3.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -58,16 +58,17 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema5/slide-4.png')
+                img(src='@/assets/curso/temas/tema5/slide-4.png', alt="")
 
     .row.align-items-center.mb-5
-      .col-xl-7
-        .bg-c4.p-5(data-aos="fade-right")
+      .col-xl-7.col-lg-6
+        .bg-c4.p-4.py-lg-3.px-lg-3.p-xl-5(data-aos="fade-right")
           p Luego de creado el sitio a través del servicio pythonanywhere, siguiendo los pasos indicados, se continuará con su despliegue.
 
           p.mb-0 Ahora se mostrará el paso a paso en el siguiente video. Hay que tener en cuenta que si bien el ejercicio se hace con base en el ejemplo planteado servirá de guía para que lo se pueda hacer después.
-      .col-xl-5
-        img(src='@/assets/curso/temas/tema5/img-1.png')(data-aos="zoom-in")
+      .col-xl-5.col-lg-6.d-block.d-md-none.d-lg-block
+        figure.mt-4.mt-xl-0
+          img(src='@/assets/curso/temas/tema5/img-1.png', alt="", style="max-width: 505px")(data-aos="zoom-in")
 
     figure.mb-5
       .video
@@ -83,7 +84,7 @@
       .col-xl-7
         .bg-c2.mb-4.py-3.ps-0.pe-4
           .d-flex.justify-content-start.align-items-center
-            img(src="@/assets/curso/temas/tema1/icon-azul-2.svg", style="width: 53px").me-3
+            img(src="@/assets/curso/temas/tema1/icon-azul-2.svg", style="width: 53px", alt="").me-3
             .bg-c2-texto
               p.mb-2 Se ha llegado al final del componente formativo, esperando estos conocimientos aporten a su vida personal y profesional.
 

@@ -29,7 +29,7 @@
         p(data-aos="fade-up") De acuerdo con la información y lo requerido por el usuario se apreciará más adelante un ejemplo de cómo realizar este proceso paso a paso. Pero inicialmente, se debe definir el #[em framework] que se utilizará para la creación del proyecto, #[em Flask]. Ahora se exponen algunos conceptos básicos sobre este #[em framework.]
       .col-lg-4
         figure.d-none.d-lg-block
-          img(src="@/assets/curso/temas/tema3/img2.svg")(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema3/img2.svg", alt="")(data-aos="zoom-in")
 
     .bg-c2.p-5.pb-4.mb-5
       .bg-c5.mb-4(data-aos="fade-up")
@@ -49,7 +49,7 @@
 
     a.anexo.mb-5(:href="obtenerLink('/downloads/anexo_creacion_vistas.zip')" target="_blank")
       .anexo__icono
-        img(src="@/assets/template/icono-zip.svg")
+        img(src="@/assets/template/icono-zip.svg", alt="")
       .anexo__texto
         p #[strong Nota:] antes de comenzar haga clic en este enlace para realizar la descarga de los archivos necesarios para la creación de las vistas.
 
@@ -64,7 +64,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-1.png')
+                img(src='@/assets/curso/temas/tema3/slide-1.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -72,7 +72,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-2.png')
+                img(src='@/assets/curso/temas/tema3/slide-2.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -80,7 +80,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-3.png')
+                img(src='@/assets/curso/temas/tema3/slide-3.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -90,7 +90,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-4.png')
+                img(src='@/assets/curso/temas/tema3/slide-4.png', alt="")
 
     p.my-5(data-aos="fade-up") Ya luego de estos pasos iniciales, se  puede proceder a la creación de la base de datos y a las configuraciones que  llevarán a la ejecución del programa:
 
@@ -106,7 +106,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-5a.png')
+                img(src='@/assets/curso/temas/tema3/slide-5a.png', alt="")
 
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
@@ -115,7 +115,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-5.png')
+                img(src='@/assets/curso/temas/tema3/slide-5.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 3
@@ -128,7 +128,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-6.png')
+                img(src='@/assets/curso/temas/tema3/slide-6.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 4
@@ -139,7 +139,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-7.png')
+                img(src='@/assets/curso/temas/tema3/slide-7.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 5
@@ -148,7 +148,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-8.png')
+                img(src='@/assets/curso/temas/tema3/slide-8.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 6
@@ -159,7 +159,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-9.png')
+                img(src='@/assets/curso/temas/tema3/slide-9.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 7
@@ -167,7 +167,7 @@
               p Se crean las rutas de acceso a los #[em templates] y la información que se visualizará en cada uno de ellos. La instrucción #[code @app.route] indica la ruta que se va a acceder y la función #[code def Index():] indica que la información que se visualizará será mostrada en la ruta principal (en el archivo index.html). Luego, se procede a la creación de un cursor que realiza  una consulta a la base de datos y busca en la tabla #[code.etiqueta tbl_informacion] y retorna los datos en el #[em template] con el nombre #[code.etiqueta index.html], crea un arreglo llamado #[code contacts] y le asigna los datos traídos por medio de la consulta sql, para luego mostrar los datos en la vista.
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-10.png')
+                img(src='@/assets/curso/temas/tema3/slide-10.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 8
@@ -176,7 +176,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-11.png')
+                img(src='@/assets/curso/temas/tema3/slide-11.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 9
@@ -185,7 +185,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-12.png')
+                img(src='@/assets/curso/temas/tema3/slide-12.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 10
@@ -194,7 +194,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-13.png')
+                img(src='@/assets/curso/temas/tema3/slide-13.png', alt="")
           .row.my-lg-4
             .col-md-4.mb-4.mb-md-0
               h5 Paso 11
@@ -205,7 +205,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema3/slide-14.png')
+                img(src='@/assets/curso/temas/tema3/slide-14.png', alt="")
 
 
     p.mb-4(data-aos="fade-up") Como se dijo con antelación, para la creación de una página #[em web] en Python utilizando el #[em framework] de #[em Flask] y conectado a una base de datos MySQL, se tuvo que dar algunos pasos previos que llevan al momento de la ejecución del programa, como se verá en el siguiente video:
