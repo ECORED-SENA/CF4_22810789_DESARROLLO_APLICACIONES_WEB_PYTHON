@@ -6,7 +6,9 @@
       .titulo-principal__numero
         span 3
       h1 Integración de la capa lógica en las interfaces de usuario
-      p.mb-4 En esta sección se requiere de conocimientos sobre el lenguaje de programación a utilizar y sobre todo de la arquitectura y el diseño de #[em software] que se ha estado abordando.
+
+    p.mb-4 En esta sección se requiere de conocimientos sobre el lenguaje de programación a utilizar y sobre todo de la arquitectura y el diseño de #[em software] que se ha estado abordando.
+
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
@@ -20,7 +22,7 @@
 
     .row.mb-4
       .col-lg-8
-        p(data-aos="fade-up") Es importante que tener en cuenta que este es un proceso de intercambio de estructuras, las cuales tienen como objetivo dividir las funcionalidades del sistema en espacios propios.
+        p(data-aos="fade-up") Es importante tener en cuenta que este es un proceso de intercambio de estructuras, las cuales tienen como objetivo dividir las funcionalidades del sistema en espacios propios.
 
         p(data-aos="fade-up") En pocas palabras, la vista se encarga de visualizar los formularios, el controlador se encarga de verificar dichos datos y procesarlos, y el modelo de almacenar y recuperar la información.
 
@@ -33,7 +35,7 @@
       .bg-c5.mb-4(data-aos="fade-up")
         .bg-c5-body
           h5 ¿Qué es #[em Flask]?
-          p Es un #[em framework] minimalista escrito en Python que permite crear aplicaciones #[em web] rápidamente y con un mínimo número de líneas de código. 
+          p Es un #[em framework] minimalista escrito en Python que permite crear aplicaciones #[em web] rápidamente y con un mínimo número de líneas de código.
 
           p Está basado en la especificación WSGI de Werkzeug, el motor de #[em templates] Jinja2 y tiene una licencia BSD. Dentro de este #[em framework] se puede encontrar un alto grado de integración con las librerías de Python para realizar el proceso de creación de sitios dinámicos que integren el uso de bases de datos, dentro de las cuales tiene compatibilidad con las principales que se encuentran en el mercado.
 
@@ -43,9 +45,16 @@
 
           p A continuación se muestra un paso a paso de la creación de una página #[em web] en Python utilizando el #[em framework] de #[em Flask] y conectado con una base de datos MySQL, como se ha venido trabajando en este curso.
 
-      .bg-c9.p-3(data-aos="fade-up")
-        p.mb-0 #[strong Nota:] antes de comenzar se requiere la descarga de los archivos para la creación de las vistas en el Anexo. Archivos para creación de las vistas.
-        p.mb-4 Se debe comenzar con los pasos previos a la creación de la base de datos:
+
+
+    a.anexo.mb-5(:href="obtenerLink('/downloads/anexo_creacion_vistas.zip')" target="_blank")
+      .anexo__icono
+        img(src="@/assets/template/icono-zip.svg")
+      .anexo__texto
+        p #[strong Nota:] antes de comenzar haga clic en este enlace para realizar la descarga de los archivos necesarios para la creación de las vistas.
+
+    p.mb-4 Se debe comenzar con los pasos previos a la creación de la base de datos:
+
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
         SlyderA(tipo="b")
@@ -83,7 +92,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/slide-4.png')
 
-    p.my-5(data-aos="fade-up") Ya luego de estos pasos iniciales, se  puede proceder a la creación de la base de datos y a las configuraciones que  llevarán a la ejecución del programa: 
+    p.my-5(data-aos="fade-up") Ya luego de estos pasos iniciales, se  puede proceder a la creación de la base de datos y a las configuraciones que  llevarán a la ejecución del programa:
 
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
@@ -113,7 +122,7 @@
 
               p Lo primero que se realizará es la instalación de #[em Flask] y luego la librería para el uso de la base de datos Mysql, comenzando con el comando #[code.etiqueta pip #[em install flask]]
 
-              p Con eso empezará la instalación desde el repositorio del #[em framework] de trabajo #[span.etiqueta Flask]. 
+              p Con eso empezará la instalación desde el repositorio del #[em framework] de trabajo #[span.etiqueta Flask].
 
               p Para verificar que quedó bien instalado se verifica la versión con el comando que se visualiza a continuación:
 
@@ -190,7 +199,7 @@
             .col-md-4.mb-4.mb-md-0
               h5 Paso 11
 
-              p Por último, se observa el proceso de eliminación de un dato. Se crea la ruta que recibe el id de la persona que se desea sacar de la base de datos y luego se procede a ejecutar la instrucción delete, la cual permite eliminar un registro de la base de datos, pero en la cláusula where se le envía el id de la persona que se esté seleccionando para que no elimine todos los registros sino solo el que se está seleccionando. 
+              p Por último, se observa el proceso de eliminación de un dato. Se crea la ruta que recibe el id de la persona que se desea sacar de la base de datos y luego se procede a ejecutar la instrucción delete, la cual permite eliminar un registro de la base de datos, pero en la cláusula where se le envía el id de la persona que se esté seleccionando para que no elimine todos los registros sino solo el que se está seleccionando.
 
               p También, se coloca el #[code app.run] donde se selecciona el puerto 3000 y se ejecuta la aplicación, la cual utilizará el navegador predeterminado para realizar el despliegue de las vistas y la integración del #[em backend] creado y se procede a ejecutar la aplicación para ver su operación.
 
@@ -203,8 +212,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Título del video.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7rEvlyV3caY" title="Ejecución y prueba del programa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Ejecución y prueba del programa.
 
 </template>
 

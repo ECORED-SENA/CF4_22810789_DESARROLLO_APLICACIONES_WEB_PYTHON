@@ -53,7 +53,7 @@
               h5 Paso 4
 
               p Por último, le  mostrará el nombre del archivo principal, que va a dejar tal cual, ya que luego lo que sigue será cambiar el código que este contiene y después dar clic en siguiente.
-              
+
               p Con esto se verá que el sitio ha sido creado con éxito.
 
             .col-md-8
@@ -71,8 +71,8 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Título del video.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/xZjIMrmu-bg" title="Despliegue de aplicación en la web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Despliegue de aplicación en la #[em web].
 
 
     p(data-aos="fade-up") El video expone, entonces, la puesta a punto del sitio a través de un servidor, logrando su visualización y la colocación de un dato para verificar que todo funcione de manera correcta.

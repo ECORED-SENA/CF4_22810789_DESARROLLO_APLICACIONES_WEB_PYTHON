@@ -9,8 +9,8 @@
 
 
     .row.align-items-center.mb-5
-      .col-xl-4
-        figure
+      .col-xl-4.d-none.d-xl-block
+        figure.mb-4.mb-xl-0
           img(src='@/assets/curso/temas/tema4/img1.svg')(data-aos="zoom-in")
       .col-xl-8
         p(data-aos="fade-up") Son un conjunto de tecnologías que permiten el acceso de la información de diferentes fuentes y aplicaciones.
@@ -32,7 +32,7 @@
         .bg-c9.p-4.mb-4
           p(data-aos="fade-left") Todos estos se encuentran soportados por servicios  #[em web]. Se entiende que dependiendo de las necesidades que se tengan se puede contratar según las capacidades técnicas requeridas, siendo su costo razonable de acuerdo con lo que ofrecen, convirtiéndose, además, en la ventaja competitiva para las organizaciones.
 
-          p(data-aos="fade-right") Los servicios #[em web] varían desde el despliegue de las aplicaciones hasta complejas infraestructuras que permiten a grandes organizaciones soportar todos los servicios que estas requieren para funcionar. 
+          p(data-aos="fade-right") Los servicios #[em web] varían desde el despliegue de las aplicaciones hasta complejas infraestructuras que permiten a grandes organizaciones soportar todos los servicios que estas requieren para funcionar.
 
           p(data-aos="fade-up") Ahora bien, es importante tener en cuenta que los servicios #[em web] se utilizan para realizar el intercambio de información que puede requerir una aplicación. Para esto utiliza unos protocolos específicos para realizar estas operaciones teniendo como base el protocolo de transferencia http.
 
@@ -77,7 +77,7 @@
 
         P.mb-4 Es esencial contar con un #[em Web service] de calidad si en su empresa tiene automatizados procesos en red con PLC’s, sistemas de supervisión y control de los procesos productivos o sistemas SCADA. Estos deben de contar con una buena conexión para asegurar un correcto funcionamiento.
 
-    p.mb-4(data-aos="fade-up") La interacción que los servicios #[em web] ofrecen es la conexión mediante protocolos e interfaces y el intercambio  de diferentes servicios e información que se puede dar entre estas mismas aplicaciones. Esto para obtener un beneficio propio, tal y como se puede apreciar en el siguiente ejemplo: 
+    p.mb-4(data-aos="fade-up") La interacción que los servicios #[em web] ofrecen es la conexión mediante protocolos e interfaces y el intercambio  de diferentes servicios e información que se puede dar entre estas mismas aplicaciones. Esto para obtener un beneficio propio, tal y como se puede apreciar en el siguiente ejemplo:
 
     .bg-c10.p-4.mb-5
       .row
@@ -87,16 +87,16 @@
           p.mb-0.text-white  Un cliente ingresa a través de una interfaz gráfica a la página de un sitio de un agente de viajes. Este tiene un servicio web instalado que proporciona información y datos al usuario sobre el proceso que este implica, pero a su vez está conectado con otra interfaz que permite, por ejemplo, si el cliente requiere solicitar alojamiento en algún hotel a través de la página #[em web] lo podrá hacer o si requiere utilizar los servicios del banco para pagar su reservación, también, ya que tiene la conexión con dichos procesos y servicios.
 
     .row.justify-content-center.mb-4.pb-4.mt-5
-      .col-lg-8
+      .col-lg-11
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 4. #[span Servicios web]
+          h5 Figura 4. <br> #[span #[em Servicios web]]
         figure.figura
           img(src="@/assets/curso/temas/tema4/figura4.svg")(data-aos="zoom-in")
 
 
-    p Esto se puede observar en la páginas de #[em e-commerce], en las cuales se ofrecen los servicios de pagos en línea, entre otros. Este es un claro ejemplo del uso de servicios web, ya que la aplicación de #[em e-commerce] está instalada en un servidor y está siendo administrada por una empresa o particular; pero en cierto modo, tiene la posibilidad de realizar el pago en línea y es allí donde entra el proceso toma fuerza, ya que al momento que se desee cancelar y utilizar medios electrónicos automáticamente se redireccionará al cliente a la página del banco para realizar el proceso. 
+    p Esto se puede observar en la páginas de #[em e-commerce], en las cuales se ofrecen los servicios de pagos en línea, entre otros. Este es un claro ejemplo del uso de servicios web, ya que la aplicación de #[em e-commerce] está instalada en un servidor y está siendo administrada por una empresa o particular; pero en cierto modo, tiene la posibilidad de realizar el pago en línea y es allí donde entra el proceso toma fuerza, ya que al momento que se desee cancelar y utilizar medios electrónicos automáticamente se redireccionará al cliente a la página del banco para realizar el proceso.
 
-    p Una vez este culmine retornará a la página del sitio de #[em e-commerce] para culminar el proceso de compra. 
+    p Una vez este culmine retornará a la página del sitio de #[em e-commerce] para culminar el proceso de compra.
 </template>
 
 <script>

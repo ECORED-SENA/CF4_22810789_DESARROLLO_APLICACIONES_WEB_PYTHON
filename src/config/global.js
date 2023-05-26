@@ -96,11 +96,11 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/22810789_CF04_DU.pdf',
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -175,18 +175,23 @@ export default {
   referencias: [
     {
       referencia:
-        'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> <strong>Mozilla recursos para desarrolladores.</strong> Pavón, J. (2008). Estructura de las aplicaciones orientadas a objetos. <em>El patrón Modelo-Vista-Controlador (MVC).</em><strong>Universidad Complutense de Madrid.</strong>',
+        'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> Mozilla recursos para desarrolladores.',
       link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf',
     },
     {
       referencia:
-        '<strong>Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y Abrutsky, M.</strong> (2012). <em>Bases de datos.</em> <strong>Alfaomega Grupo Editor.</strong>',
+        'Pavón, J. (2008). <em>Estructura de las aplicaciones orientadas a objetos. El patrón Modelo-Vista-Controlador (MVC).</em>Universidad Complutense de Madrid.',
+      link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf',
+    },
+    {
+      referencia:
+        'Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y Abrutsky, M. (2012). <em>Bases de datos.</em> Alfaomega Grupo Editor.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061572',
     },
     {
       referencia:
-        '<strong>Rodríguez de Sepúlveda Maillo,</strong> D. (2015). <em>Administración de servicios web.</em><strong>Ra-Ma.</strong> ',
+        'Rodríguez de Sepúlveda Maillo, D. (2015). <em>Administración de servicios web.</em>Ra-Ma.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
     },

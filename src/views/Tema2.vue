@@ -109,6 +109,17 @@
             .col-md-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-8.png')
+
+    p.mt-5 Luego de crear la base de datos, se invita a hacer todos estos pasos para que tenga una mejor comprensión.
+
+    p.mb-4 Ahora, a través del siguiente video verá las consultas para la recuperación de la información:
+
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yNvy1dx_KbU" title="Consultas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Consultas.
+
+    p Al final del componente, en el material complementario, hay un enlace donde se podrá explorar mucho más sobre el tema visto.
 </template>
 
 <script>
