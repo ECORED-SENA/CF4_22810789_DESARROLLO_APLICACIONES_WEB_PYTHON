@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Servicios #[em web]
+      h1 Servicios web
 
 
     .row.align-items-center.mb-5
@@ -15,7 +15,7 @@
       .col-xl-8
         p(data-aos="fade-up") Son un conjunto de tecnologías que permiten el acceso de la información de diferentes fuentes y aplicaciones.
 
-        p.mb-4(data-aos="fade-up") Su alimentación principal es la interacción con los diferentes subsistemas que se encuentran en la red, ahora bien, los servicios #[em web] proporcionan gran parte de la dinámica que se genera a través de Internet y que proporciona el flujo de información que se presenta todos los días, con ejemplos como:
+        p.mb-4(data-aos="fade-up") Su alimentación principal es la interacción con los diferentes subsistemas que se encuentran en la red, ahora bien, los servicios web proporcionan gran parte de la dinámica que se genera a través de Internet y que proporciona el flujo de información que se presenta todos los días, con ejemplos como:
 
         .bg-c10.p-4(data-aos="fade-up")
           ul.lista-ul.my-0.text-white
@@ -30,11 +30,11 @@
     .bg-c12.mb-5
       .px-2.px-lg-5
         .bg-c9.p-4.mb-4
-          p(data-aos="fade-left") Todos estos se encuentran soportados por servicios  #[em web]. Se entiende que dependiendo de las necesidades que se tengan se puede contratar según las capacidades técnicas requeridas, siendo su costo razonable de acuerdo con lo que ofrecen, convirtiéndose, además, en la ventaja competitiva para las organizaciones.
+          p(data-aos="fade-left") Todos estos se encuentran soportados por servicios  web. Se entiende que dependiendo de las necesidades que se tengan se puede contratar según las capacidades técnicas requeridas, siendo su costo razonable de acuerdo con lo que ofrecen, convirtiéndose, además, en la ventaja competitiva para las organizaciones.
 
-          p(data-aos="fade-right") Los servicios #[em web] varían desde el despliegue de las aplicaciones hasta complejas infraestructuras que permiten a grandes organizaciones soportar todos los servicios que estas requieren para funcionar.
+          p(data-aos="fade-right") Los servicios web varían desde el despliegue de las aplicaciones hasta complejas infraestructuras que permiten a grandes organizaciones soportar todos los servicios que estas requieren para funcionar.
 
-          p(data-aos="fade-up") Ahora bien, es importante tener en cuenta que los servicios #[em web] se utilizan para realizar el intercambio de información que puede requerir una aplicación. Para esto utiliza unos protocolos específicos para realizar estas operaciones teniendo como base el protocolo de transferencia http.
+          p(data-aos="fade-up") Ahora bien, es importante tener en cuenta que los servicios web se utilizan para realizar el intercambio de información que puede requerir una aplicación. Para esto utiliza unos protocolos específicos para realizar estas operaciones teniendo como base el protocolo de transferencia http.
 
         .row.justify-content-center.mb-5
           .col-lg-auto.d-none.d-lg-block
@@ -48,7 +48,7 @@
           .col-xl-10
             .bg-c11.p-4
 
-              h5 ¿Qué es un #[em web] service?
+              h5 ¿Qué es un web service?
 
               p El concepto hace referencia al sistema de comunicación, los protocolos y los estándares entre dos dispositivos electrónicos conectados a la misma red para intercambiar datos entre sistemas o aplicaciones.
 
@@ -73,18 +73,18 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Beneficios")
         h4 Beneficios
         p.mb-4 Uno de los más relevantes en el sector industrial es poder acceder a programas o aplicaciones sin necesidad de tenerlos instalados en su ordenador porque están alojados en el #[em Web service.] De esta manera, siempre accederá al mismo contenido sin que haya pérdidas de la información.
-        p.mb-4 No obstante, un #[em Web service] sirve para poder acceder a cualquier tipo de archivos y contenidos que tenga alojados en un alojamiento #[em web o hosting.]
+        p.mb-4 No obstante, un #[em Web service] sirve para poder acceder a cualquier tipo de archivos y contenidos que tenga alojados en un alojamiento web o #[em hosting.]
 
         P.mb-4 Es esencial contar con un #[em Web service] de calidad si en su empresa tiene automatizados procesos en red con PLC’s, sistemas de supervisión y control de los procesos productivos o sistemas SCADA. Estos deben de contar con una buena conexión para asegurar un correcto funcionamiento.
 
-    p.mb-4(data-aos="fade-up") La interacción que los servicios #[em web] ofrecen es la conexión mediante protocolos e interfaces y el intercambio  de diferentes servicios e información que se puede dar entre estas mismas aplicaciones. Esto para obtener un beneficio propio, tal y como se puede apreciar en el siguiente ejemplo:
+    p.mb-4(data-aos="fade-up") La interacción que los servicios web ofrecen es la conexión mediante protocolos e interfaces y el intercambio  de diferentes servicios e información que se puede dar entre estas mismas aplicaciones. Esto para obtener un beneficio propio, tal y como se puede apreciar en el siguiente ejemplo:
 
     .bg-c10.p-4.mb-5
       .row
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema4/img3.svg", style= "width: 90px", alt="")(data-aos="zoom-in")
         .col
-          p.mb-0.text-white  Un cliente ingresa a través de una interfaz gráfica a la página de un sitio de un agente de viajes. Este tiene un servicio web instalado que proporciona información y datos al usuario sobre el proceso que este implica, pero a su vez está conectado con otra interfaz que permite, por ejemplo, si el cliente requiere solicitar alojamiento en algún hotel a través de la página #[em web] lo podrá hacer o si requiere utilizar los servicios del banco para pagar su reservación, también, ya que tiene la conexión con dichos procesos y servicios.
+          p.mb-0.text-white  Un cliente ingresa a través de una interfaz gráfica a la página de un sitio de un agente de viajes. Este tiene un servicio web instalado que proporciona información y datos al usuario sobre el proceso que este implica, pero a su vez está conectado con otra interfaz que permite, por ejemplo, si el cliente requiere solicitar alojamiento en algún hotel a través de la página web lo podrá hacer o si requiere utilizar los servicios del banco para pagar su reservación, también, ya que tiene la conexión con dichos procesos y servicios.
 
     .row.justify-content-center.mb-4.pb-4.mt-5
       .col-lg-11

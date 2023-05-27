@@ -35,15 +35,15 @@
       .bg-c5.mb-4(data-aos="fade-up")
         .bg-c5-body
           h5 ¿Qué es #[em Flask]?
-          p Es un #[em framework] minimalista escrito en Python que permite crear aplicaciones #[em web] rápidamente y con un mínimo número de líneas de código.
+          p Es un #[em framework] minimalista escrito en Python que permite crear aplicaciones web rápidamente y con un mínimo número de líneas de código.
 
           p Está basado en la especificación WSGI de Werkzeug, el motor de #[em templates] Jinja2 y tiene una licencia BSD. Dentro de este #[em framework] se puede encontrar un alto grado de integración con las librerías de Python para realizar el proceso de creación de sitios dinámicos que integren el uso de bases de datos, dentro de las cuales tiene compatibilidad con las principales que se encuentran en el mercado.
 
-          p #[em Flask] es muy compacto, pero no débil; en ese sentido, se dice que es compacto por su practicidad en la construcción de una aplicación y es muy simple su codificación, lo cual lo hace uno de los #[em framework] más utilizados para la construcción de sitios #[em web], integrando el lenguaje de programación Python.
+          p #[em Flask] es muy compacto, pero no débil; en ese sentido, se dice que es compacto por su practicidad en la construcción de una aplicación y es muy simple su codificación, lo cual lo hace uno de los #[em framework] más utilizados para la construcción de sitios web, integrando el lenguaje de programación Python.
 
           p Esto genera una gran compatibilidad con librerías externas para la generación de archivos de texto, entre otros. Este #[em framework] también tiene la ventaja de ocupar poco espacio y poder ser utilizado en equipos que no tienen mucha capacidad de procesamiento y ficha técnica, esto también se podría ver como una gran ventaja.
 
-          p A continuación se muestra un paso a paso de la creación de una página #[em web] en Python utilizando el #[em framework] de #[em Flask] y conectado con una base de datos MySQL, como se ha venido trabajando en este curso.
+          p A continuación se muestra un paso a paso de la creación de una página web en Python utilizando el #[em framework] de #[em Flask] y conectado con una base de datos MySQL, como se ha venido trabajando en este curso.
 
 
 
@@ -208,7 +208,7 @@
                 img(src='@/assets/curso/temas/tema3/slide-14.png', alt="")
 
 
-    p.mb-4(data-aos="fade-up") Como se dijo con antelación, para la creación de una página #[em web] en Python utilizando el #[em framework] de #[em Flask] y conectado a una base de datos MySQL, se tuvo que dar algunos pasos previos que llevan al momento de la ejecución del programa, como se verá en el siguiente video:
+    p.mb-4(data-aos="fade-up") Como se dijo con antelación, para la creación de una página web en Python utilizando el #[em framework] de #[em Flask] y conectado a una base de datos MySQL, se tuvo que dar algunos pasos previos que llevan al momento de la ejecución del programa, como se verá en el siguiente video:
 
     figure
       .video

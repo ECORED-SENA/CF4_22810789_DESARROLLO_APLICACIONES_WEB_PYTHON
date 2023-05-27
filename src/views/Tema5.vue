@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Despliegue de aplicaciones en la #[em web]
+      h1 Despliegue de aplicaciones en la web
 
     p(data-aos="fade-up") En este espacio se realizará el despliegue de la aplicación construida en Python, cabe aclarar que existen muchos #[em hosting] y lugares donde se puede llevar a cabo el despliegue de su sitio; pero para este momento se va a utilizar un servicio gratuito llamado #[em pythonanywhere.com] el cual proporcionará todos los recursos para colocar en marcha el sitio sin ninguna dificultad.
 
@@ -30,7 +30,7 @@
           .row.mt-lg-3
             .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 2
-              p Se mostrará luego el #[em Dashboard] en pythonanywhere donde se va a crear el espacio del sitio, ingresando en la barra superior a la opción #[em Web.]
+              p Se mostrará luego el #[em Dashboard] en pythonanywhere donde se va a crear el espacio del sitio, ingresando en la barra superior a la opción web.
 
               p Posteriormente, aparecerá una opción llamada #[em Add a new web app.] Dar clic en #[em Next] y seleccione #[em Flask], que es el #[em framework] seleccionado para la construcción de su sitio.
 
@@ -73,7 +73,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/xZjIMrmu-bg" title="Despliegue de aplicación en la web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Despliegue de aplicación en la #[em web].
+      figcaption Video. Despliegue de aplicación en la web.
 
 
     p(data-aos="fade-up") El video expone, entonces, la puesta a punto del sitio a través de un servidor, logrando su visualización y la colocación de un dato para verificar que todo funcione de manera correcta.

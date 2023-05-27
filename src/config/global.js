@@ -55,13 +55,13 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Servicios <em>web</em>',
+        titulo: 'Servicios web',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Despliegue de aplicaciones en la <em>Web</em>',
+        titulo: 'Despliegue de aplicaciones en la web',
         desarrolloContenidos: true,
       },
     ],
@@ -115,11 +115,11 @@ export default {
       tema: 'Lenguaje de consulta',
       referencia:
         '1Keydata.com. (2022). <em>Tutorial de SQL: curso de SQL.</em> 1Keydata.com. ',
-      tipo: 'Tutorial <em>web</em>',
+      tipo: 'Tutorial web',
       link: 'https://www.1keydata.com/es/sql/',
     },
     {
-      tema: 'Servicios <em>web</em>',
+      tema: 'Servicios web',
       referencia:
         'Rodríguez de Sepúlveda Maillo, D. (2015). <em>Administración de servicios web.</em> Ra-Ma',
       tipo: 'Libro',
@@ -127,7 +127,7 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB106473',
     },
     {
-      tema: 'Servicios <em>web</em>',
+      tema: 'Servicios web',
       referencia:
         'Reinosa, E., Maldonado, C., Muñoz, R., Damiano, L. y  Abrutsky, M. (2012). <em>Bases de datos.</em> Alfaomega Grupo Editor. ',
       tipo: 'Libro',
@@ -144,12 +144,12 @@ export default {
     {
       termino: 'CSS',
       significado:
-        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página <em>web</em>.',
+        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página web.',
     },
     {
       termino: 'Formulario',
       significado:
-        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página <em>web</em>.',
+        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página web.',
     },
     {
       termino: '<em>Front-end</em>',
@@ -159,24 +159,23 @@ export default {
     {
       termino: 'HTML',
       significado:
-        'Lenguaje de etiquetado que permite estructurar una página <em>web</em>.',
+        'Lenguaje de etiquetado que permite estructurar una página web.',
     },
     {
       termino: 'MVC',
       significado:
-        'Modelo Vista Controlador, es una estructura de trabajo que permite independizar cada una de las partes de un programa, en este caso un sitio <em>web</em> o aplicativo <em>web</em>.',
+        ' Modelo Vista Controlador, es una estructura de trabajo que permite independizar cada una de las partes de un programa, en este caso un sitio web o aplicativo web.',
     },
     {
-      termino: 'Servidor <em>web</em>.',
+      termino: 'Servidor web',
       significado:
-        'Es una máquina dedicada a colocar los archivos de ejecución de una página <em>web</em> y hacerla visible para muchos usuarios.',
+        'Es una máquina dedicada a colocar los archivos de ejecución de una página web y hacerla visible para muchos usuarios.',
     },
   ],
   referencias: [
     {
       referencia:
         'MDN Web Docs. (s.f.) <em>Proyecto constrúyelo mejor.</em> Mozilla recursos para desarrolladores.',
-      link: 'https://www.fdi.ucm.es/profesor/jpavon/poo/2.14.mvc.pdf',
     },
     {
       referencia:

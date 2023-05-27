@@ -30,7 +30,7 @@
             .col
               .bg-c5
                 .bg-c5-body
-                  p.mb-4 La arquitectura de #[em software] es una disciplina muy relevante en el mundo del desarrollo #[em web] o App. Ahora, se va a profundizar en los diferentes tipos de arquitectura de #[em software] que existen, pero antes es necesario conocer qué significa esta ciencia.
+                  p.mb-4 La arquitectura de #[em software] es una disciplina muy relevante en el mundo del desarrollo web o App. Ahora, se va a profundizar en los diferentes tipos de arquitectura de #[em software] que existen, pero antes es necesario conocer qué significa esta ciencia.
                   p.mb-0 En el mundo del desarrollo existen complejos problemas a tratar. Si bien es conocido que el #[em software] puede ser más o menos complejo, lo más probable es que vaya mejorando para cubrir nuevas necesidades o funcionalidades. Es por ello que la elección de una estructura o método en el se encajen todas las piezas o componentes es vital para obrar un sistema escalable que dé solución a los problemas del cliente.
 
 
@@ -52,7 +52,7 @@
                 .col
                   p.mb-0 #[strong MVT (Modelo Vista #[em Template])]
 
-        p.mb-4(data-aos="fade-up") Estos patrones de arquitectura son los que actualmente rigen el proceso de construcción de las aplicaciones #[em web] en el mercado. Hay que recordar que los patrones están diseñados para que un producto de #[em software] sea elevado a una calidad tal que pueda ser modificado y escalable sin necesidad de tantos esfuerzos por parte de los equipos de desarrollo.
+        p.mb-4(data-aos="fade-up") Estos patrones de arquitectura son los que actualmente rigen el proceso de construcción de las aplicaciones web en el mercado. Hay que recordar que los patrones están diseñados para que un producto de #[em software] sea elevado a una calidad tal que pueda ser modificado y escalable sin necesidad de tantos esfuerzos por parte de los equipos de desarrollo.
 
         p.mb-4(data-aos="fade-up") Esto deriva en el uso de buenas prácticas al momento de construcción de un producto de #[em software], eso quiere decir, que se puede garantizar no solo un buen proceso de construcción, sino también la utilización de un estándar de desarrollo a nivel internacional.
 
@@ -152,7 +152,7 @@
 
     p(data-aos="fade-up") Es un modelo de diseño de #[em software] en el que las tareas se reparten entre los proveedores de los recursos o los servicios, llamados los servidores y los demandantes, y los clientes. Un cliente realiza peticiones a otro programa y el servidor le da respuesta.
 
-    p(data-aos="fade-up") Este modelo es el utilizado por muchos años para el funcionamiento de los sitios #[em web] y servicios a nivel mundial. El servidor es una máquina dedicada a recibir peticiones de equipos que se encuentran repartidos por todo el mundo. Contiene los aplicativos y los datos que requieren las aplicaciones; y, mediante un proceso de comunicación, que incluye diferentes tipos de protocolos, recibe la información, la procesa y la entrega a los equipos de clientes que la solicitan. Ver figura.
+    p(data-aos="fade-up") Este modelo es el utilizado por muchos años para el funcionamiento de los sitios web y servicios a nivel mundial. El servidor es una máquina dedicada a recibir peticiones de equipos que se encuentran repartidos por todo el mundo. Contiene los aplicativos y los datos que requieren las aplicaciones; y, mediante un proceso de comunicación, que incluye diferentes tipos de protocolos, recibe la información, la procesa y la entrega a los equipos de clientes que la solicitan. Ver figura.
 
     .row.justify-content-center.mb-4.pb-4.mt-5
       .col-lg-8
