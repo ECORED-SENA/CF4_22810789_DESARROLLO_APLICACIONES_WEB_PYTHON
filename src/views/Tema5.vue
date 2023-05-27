@@ -14,8 +14,8 @@
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
         SlyderA(tipo="b")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 1
               p Se ingresa a pythonanywhere y se realiza el registro o #[em login] para poder utilizar los servicios.
 
@@ -23,40 +23,40 @@
 
               p ¡Ya está listo para iniciar la creación de su sitio!
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema5/slide-1.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 2
               p Se mostrará luego el #[em Dashboard] en pythonanywhere donde se va a crear el espacio del sitio, ingresando en la barra superior a la opción #[em Web.]
 
               p Posteriormente, aparecerá una opción llamada #[em Add a new web app.] Dar clic en #[em Next] y seleccione #[em Flask], que es el #[em framework] seleccionado para la construcción de su sitio.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema5/slide-2.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 3
 
               p Luego, en la siguiente ventana, se va a seleccionar la versión de Python; en este caso se utilizará la versión más actual, aunque en algunas ocasiones se debe realizar de acuerdo con la versión trabajada.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema5/slide-3.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 4
 
               p Por último, le  mostrará el nombre del archivo principal, que va a dejar tal cual, ya que luego lo que sigue será cambiar el código que este contiene y después dar clic en siguiente.
 
               p Con esto se verá que el sitio ha sido creado con éxito.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema5/slide-4.png', alt="")
 

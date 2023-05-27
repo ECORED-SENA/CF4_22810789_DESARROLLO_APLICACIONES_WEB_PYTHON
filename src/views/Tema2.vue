@@ -44,20 +44,20 @@
     .tarjeta.tarjeta--lila.p-4
       .px-4
         SlyderA(tipo="b")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
               p Se comienza colocando el nombre de la base de datos que será #[code.etiqueta “dbs_supermercado”]
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema2/slide-1.png', alt="")(data-aos="zoom-in")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
 
               p Luego, se continúa con la configuración de las siguientes tablas, como se muestra a continuación:
 
-              ul.lista-ul.my-0.pt-2
+              ul.lista-ul.mt-0.pt-2.mb-3
                 li.lista-ul__vineta.mb-4
                   p.mb-0 Tabla #[code tbl_estado]
                 li.lista-ul__vineta.mb-4
@@ -67,46 +67,46 @@
                 li.lista-ul__vineta.mb-4
                   p.mb-0 Tabla #[code tbl_productos]
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema2/slide-2.png', alt="")
 
 
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
-              p Tabla #[code.etiqueta tbl_estado]
-            .col-md-9
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
+              p.mb-3 Tabla #[code.etiqueta tbl_estado]
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-3.png', alt="La imagen muestra la configuración de la tabla tbl_estado, dentro de la cual se establecen dos registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar.")
 
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta  tbl_tipo]
-            .col-md-9
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-4.png', alt="La imagen muestra la configuración de la tabla tbl_estado, dentro de la cual se establecen dos registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como Nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar.")
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta tbl_referencia]
-            .col-md-9
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-5.png', alt="La imagen muestra la configuración de la tabla tbl_referencia, dentro de la cual se establecen tres registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se define name como Nombre, type varchar, length 255, decimals se deja vacio, not null se deja sin marcar y para el tercer registro se dejan los mismo valores que el registro dos excepto el Name que será Bodega.")
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
               p Tabla #[code.etiqueta tbl_productos]
-            .col-md-9
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-6.png', alt="La imagen muestra la configuración de la tabla tbl_productos, dentro de la cual se establecen 10 registros. Para el primer registro  se especifica name como PKCodigo, type  varchar, lenght 255, decimals se deja sin valores, se marca la opción not null , vitual se deja sin marcar y se establece como llave. Para el segundo registro se definen los 9 registros de igual forma exceptuando el valor Name, los cuales serán: Nombre, Descripcion, Stock, PrecioUND, PrecioVent, Stockmin, FKcodigo_tbl_tipo, FKCodigo_tbl_referencia, FKCodigo_tbl_estado. Los demás valores para esos registros serán type varchar, length 255, decimals vacio, not null y virtual sin marcar.")
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
               p Como se puede observar en la imagen se tiene el listado de las tablas o entidades que hacen parte de la base de datos, en la cual se encuentra la información que se utilizará para realizar las consultas.
-            .col-md-9
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-7.png', alt="La imagen muestra el listado de las tablas o entidades que hacen parte de la base de datos en la cual se encuentra la información que utilizará para realizar las consultas.")
-          .row.my-lg-4
-            .col-md-3.mb-4.mb-md-0
+          .row.mt-3
+            .col-md-12.col-lg-3.mb-4.mb-md-0
               p Por último, se puede observar el modelo entidad relación de la base de datos donde se ilustra su distribución y la estructura de las tablas. Adicional a ello, se puede ver el tipo de datos que utiliza cada una y la extensión de estos.
-            .col-md-9
+            .col-md-12.col-lg-9
               figure
                 img(src='@/assets/curso/temas/tema2/slide-8.png', alt="La imagen muestra el diagrama del modelo entidad relación de la base de datos donde se ilustra la distribución de los datos, la estructura de las tablas y el tipo de datos que utiliza cada una junto con su correspondiente extensión.")
 

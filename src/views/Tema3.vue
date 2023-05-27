@@ -58,37 +58,37 @@
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
         SlyderA(tipo="b")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
               p Primero hay que comenzar con la creación de las vistas, para lo cual previamente se debió descargar los archivos indicados. En este primer paso se ingresará a Visual Studio Code y se creará una carpeta para implementar todos los documentos, que se llamará PROYECTOFLASK.
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-1.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
               p Como se observa en la imagen a la carpeta (PROYECTOFLASK) hay que agregarle los 3 archivos de vistas previamente descargados.
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-2.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
               p Ya con la carpeta de #[em templates] creada con las vistas que se le proyectarán al usuario, se debe crear una carpeta llamada #[em static] donde se colocarán los arreglos de los archivos de CSS. Adicional se creará otra carpeta llamada js donde se colocará el archivo de arreglos para la visualización de la información de manera organizada.
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-3.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-md-12.col-lg-4.mb-4.mb-md-0
               p Luego de esto, se podrá ver de esta manera la visualización de las carpetas del proyecto con los archivos #[em main].css y #[em main].js . Estos deberá descargarlos del repositorio de documentos del proyecto dentro de la actividad.
 
               p #[strong Nota:] Nota: el documento main.css contiene la configuración de fondo y las líneas que se visualizan en el programa.
 
-            .col-md-8
+            .col-md-12.col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-4.png', alt="")
 
@@ -97,27 +97,27 @@
     .tarjeta.tarjeta--lila.p-4.mb-5
       .px-4
         SlyderA(tipo="b")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 1
               p Se procede a crear la base de datos para el almacenamiento de los datos que capturará desde sus vistas ya creadas.
 
               p Se observa la secuencia de código  #[span.etiqueta DDL], que permite la creación de la BD para el almacenamiento de la información que suministra el usuario; tener en cuenta que el campo #[code pkid] es autonumérico y por lo tanto, no se solicitará al usuario, se utilizará para controlar la secuencia de registros y para poder realizar las operaciones de actualización y eliminación de elementos.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-5a.png', alt="")
 
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 2
               p Se crea el archivo de código fuente llamado #[code.etiqueta app.py], el cual utilizará para almacenar todos los códigos de la aplicación.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-5.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 3
 
               p Lo primero que se realizará es la instalación de #[em Flask] y luego la librería para el uso de la base de datos Mysql, comenzando con el comando #[code.etiqueta pip #[em install flask]]
@@ -126,84 +126,84 @@
 
               p Para verificar que quedó bien instalado se verifica la versión con el comando que se visualiza a continuación:
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-6.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 4
 
               p Luego, realizará la instalación de las librerías de Mysql con el comando  #[code.etiqueta pip #[em install flask]-mysqldb]
 
               p Este comando permite realizar la instalación de la librería de Mysql para poder llevar a cabo la integración del #[em framework] #[span.etiqueta Flask] con la base de datos.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-7.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 5
 
               p Después se llama las librerías necesarias para realizar la ejecución de cada uno de los componentes. Se puede observar que se importan las librerías de #[em Flask] y las de Mysqldb, que serán utilizadas para la manipulación de las diferentes rutas de acceso del programa y al mismo tiempo la conexión con la base de datos.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-8.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 6
 
               p Del paso anterior se tendrá la configuración de la conexión con el servidor, el tipo de conexión, en este caso local #[code (localhost)], el nombre del usuario, que en este caso es el usuario administrador #[code (root)], el #[em password] que en este caso no se tiene ( y de colocarlo se ubicaría en ese espacio) y por último, el nombre de la base de datos #[code (dbs_datos)].
 
               p La línea de código llamada #[code app.secret_key] establece una clave secreta para la conexión y acceso a la información, se podrá configurar una palabra secreta #[code (mysecretkey)] como se ve en la imagen.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-9.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 7
 
               p Se crean las rutas de acceso a los #[em templates] y la información que se visualizará en cada uno de ellos. La instrucción #[code @app.route] indica la ruta que se va a acceder y la función #[code def Index():] indica que la información que se visualizará será mostrada en la ruta principal (en el archivo index.html). Luego, se procede a la creación de un cursor que realiza  una consulta a la base de datos y busca en la tabla #[code.etiqueta tbl_informacion] y retorna los datos en el #[em template] con el nombre #[code.etiqueta index.html], crea un arreglo llamado #[code contacts] y le asigna los datos traídos por medio de la consulta sql, para luego mostrar los datos en la vista.
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-10.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 8
 
               p Se codifica la ruta de acceso #[code add_contact], que permite realizar el registro de un nuevo contacto y se crea una función llamada #[code def add_contact():] la cual recibe a través de un método POST las variables enviadas desde la vista, enviando los datos de nombre, contacto y correo y los almacena en estas variables, que son enviadas a través de parámetros a la instrucción #[code insert into], que a su vez permite realizar un nuevo registro en la base de datos y envía un mensaje que el dato fue registrado y retorna a la ruta #[code.etiqueta Index] realizando el despliegue de la información que se encuentra almacenada como se hizo en el punto anterior.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-11.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 9
 
               p Ahora, se puede observar la ruta de acceso de la vista #[span.etiqueta edit_contact.html], que permite enviar los datos que se actualizarán. En la ruta se observa lo siguiente #[code.etiqueta &#39;/edit/&lt;id&gt;&#39;] esto indica que se está llamando el botón de edición y se envía el id que contenga esa fila de datos para colocarlo en la instrucción #[em where] para que no actualice todos los registros, sino el registro que se presiona en el botón. Luego se ejecuta la instrucción #[code.etiqueta select * from tbl_informacion where pkid = %s’, (id)] que permite que se consulte solo ese dato en particular y se cargue a la vista #[code edit_contact.html]
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-12.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 10
 
               p Se observa ahora la ruta que permite realizar la actualización de los datos. Se procede a recibirlos en las variables de nombres, contacto y correo y, luego se ejecuta la instrucción #[em update], la cual permite realizar el cambio del dato seleccionado. En ese momento, se envía el mensaje correspondiente a la actualización de los datos y se procede a llamar la ruta #[code.etiqueta Index], que utiliza la plantilla del archivo #[span.etiqueta index.html] trayendo los datos después de realizar el cambio de los datos en la base de datos.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-13.png', alt="")
-          .row.my-lg-4
-            .col-md-4.mb-4.mb-md-0
+          .row.mt-lg-3
+            .col-lg-12.col-xl-4.mb-4.mb-md-0
               h5 Paso 11
 
               p Por último, se observa el proceso de eliminación de un dato. Se crea la ruta que recibe el id de la persona que se desea sacar de la base de datos y luego se procede a ejecutar la instrucción delete, la cual permite eliminar un registro de la base de datos, pero en la cláusula where se le envía el id de la persona que se esté seleccionando para que no elimine todos los registros sino solo el que se está seleccionando.
 
               p También, se coloca el #[code app.run] donde se selecciona el puerto 3000 y se ejecuta la aplicación, la cual utilizará el navegador predeterminado para realizar el despliegue de las vistas y la integración del #[em backend] creado y se procede a ejecutar la aplicación para ver su operación.
 
-            .col-md-8
+            .col-lg-12.col-xl-8
               figure
                 img(src='@/assets/curso/temas/tema3/slide-14.png', alt="")
 
