@@ -31,7 +31,7 @@
               .bg-c5
                 .bg-c5-body
                   p.mb-4 La arquitectura de #[em software] es una disciplina muy relevante en el mundo del desarrollo web o App. Ahora, se va a profundizar en los diferentes tipos de arquitectura de #[em software] que existen, pero antes es necesario conocer qué significa esta ciencia.
-                  p.mb-0 En el mundo del desarrollo existen complejos problemas a tratar. Si bien es conocido que el #[em software] puede ser más o menos complejo, lo más probable es que vaya mejorando para cubrir nuevas necesidades o funcionalidades. Es por ello que la elección de una estructura o método en el se encajen todas las piezas o componentes es vital para obrar un sistema escalable que dé solución a los problemas del cliente.
+                  p.mb-0 En el mundo del desarrollo existen complejos problemas a tratar. Si bien es conocido que el #[em software] puede ser más o menos complejo, lo más probable es que vaya mejorando para cubrir nuevas necesidades o funcionalidades. Es por ello que la elección de una estructura o método en el que encajar todas las piezas o componentes es vital para obrar un sistema escalable que dé solución a los problemas del cliente.
 
 
         p.mb-4 En la actualidad existen muchos patrones de arquitectura de #[em software], pero se centrará en 2 de ellos:

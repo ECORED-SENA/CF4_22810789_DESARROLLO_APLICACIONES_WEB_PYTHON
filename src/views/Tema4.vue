@@ -48,7 +48,7 @@
           .col-xl-10
             .bg-c11.p-4
 
-              h5 ¿Qué es un web service?
+              h5 ¿Qué es un #[em web service]?
 
               p El concepto hace referencia al sistema de comunicación, los protocolos y los estándares entre dos dispositivos electrónicos conectados a la misma red para intercambiar datos entre sistemas o aplicaciones.
 
@@ -72,10 +72,10 @@
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Beneficios")
         h4 Beneficios
-        p.mb-4 Uno de los más relevantes en el sector industrial es poder acceder a programas o aplicaciones sin necesidad de tenerlos instalados en su ordenador porque están alojados en el #[em Web service.] De esta manera, siempre accederá al mismo contenido sin que haya pérdidas de la información.
-        p.mb-4 No obstante, un #[em Web service] sirve para poder acceder a cualquier tipo de archivos y contenidos que tenga alojados en un alojamiento web o #[em hosting.]
+        p.mb-4 Uno de los más relevantes en el sector industrial es poder acceder a programas o aplicaciones sin necesidad de tenerlos instalados en su ordenador porque están alojados en el #[em web service.] De esta manera, siempre accederá al mismo contenido sin que haya pérdidas de la información.
+        p.mb-4 No obstante, un #[em web service] sirve para poder acceder a cualquier tipo de archivos y contenidos que tenga alojados en un alojamßiento web o #[em hosting.]
 
-        P.mb-4 Es esencial contar con un #[em Web service] de calidad si en su empresa tiene automatizados procesos en red con PLC’s, sistemas de supervisión y control de los procesos productivos o sistemas SCADA. Estos deben de contar con una buena conexión para asegurar un correcto funcionamiento.
+        P.mb-4 Es esencial contar con un #[em web service] de calidad si en su empresa tiene automatizados procesos en red con PLC’s, sistemas de supervisión y control de los procesos productivos o sistemas SCADA. Estos deben de contar con una buena conexión para asegurar un correcto funcionamiento.
 
     p.mb-4(data-aos="fade-up") La interacción que los servicios web ofrecen es la conexión mediante protocolos e interfaces y el intercambio  de diferentes servicios e información que se puede dar entre estas mismas aplicaciones. Esto para obtener un beneficio propio, tal y como se puede apreciar en el siguiente ejemplo:
 
@@ -94,9 +94,10 @@
           img(src="@/assets/curso/temas/tema4/figura4.svg", alt="La imagen muestra un diagrama que representa un ejemplo de servicios web de una agencia de viajes. En el diagrama, se pueden identificar diferentes componentes y funcionalidades relacionadas con los servicios ofrecidos por la agencia. Se visualizan módulos y además, se observan conexiones y flujos de información entre los diferentes servicios, indicando la interacción y dependencia entre ellos.")(data-aos="zoom-in")
 
 
-    p Esto se puede observar en la páginas de #[em e-commerce], en las cuales se ofrecen los servicios de pagos en línea, entre otros. Este es un claro ejemplo del uso de servicios web, ya que la aplicación de #[em e-commerce] está instalada en un servidor y está siendo administrada por una empresa o particular; pero en cierto modo, tiene la posibilidad de realizar el pago en línea y es allí donde entra el proceso toma fuerza, ya que al momento que se desee cancelar y utilizar medios electrónicos automáticamente se redireccionará al cliente a la página del banco para realizar el proceso.
+    p Esto se puede observar en la páginas de #[em e-commerce], en las cuales se ofrecen los servicios de pagos en línea, entre otros. Este es un claro ejemplo del uso de servicios web, ya que la aplicación de #[em e-commerce] está instalada en un servidor y está siendo administrada por una empresa o particular; pero en cierto modo, tiene la posibilidad de realizar el pago en línea y es allí donde el proceso toma fuerza, ya que al momento que se desee cancelar y utilizar medios electrónicos automáticamente se redireccionará al cliente a la página del banco para realizar el proceso.
 
-    p Una vez este culmine retornará a la página del sitio de #[em e-commerce] para culminar el proceso de compra.
+    p Una vez este culmine retornará a la página del sitio de #[em e-commerce] para finalizar el proceso de compra.
+
 </template>
 
 <script>
