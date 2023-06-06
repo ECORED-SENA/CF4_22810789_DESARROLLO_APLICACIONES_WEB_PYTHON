@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="48" viewBox="0 0 54 48">
+  <g id="Grupo_1021360" data-name="Grupo 1021360" transform="translate(-304 -1359)">
+    <circle id="Elipse_7712" data-name="Elipse 7712" cx="10" cy="10" r="10" transform="translate(304 1387)" fill="#362b9e"/>
+    <circle id="Elipse_7713" data-name="Elipse 7713" cx="10" cy="10" r="10" transform="translate(338 1387)" fill="#362b9e"/>
+    <circle id="Elipse_7714" data-name="Elipse 7714" cx="10" cy="10" r="10" transform="translate(321 1359)" fill="#362b9e"/>
+    <path id="Icon_awesome-long-arrow-alt-right" data-name="Icon awesome-long-arrow-alt-right" d="M9.811,12.449H.375A.375.375,0,0,0,0,12.824v1.75a.375.375,0,0,0,.375.375H9.811v1.439a.75.75,0,0,0,1.28.53l2.689-2.689a.75.75,0,0,0,0-1.061l-2.689-2.689a.75.75,0,0,0-1.28.53Z" transform="translate(324 1383.743)" fill="#a6a1d4"/>
+    <path id="Icon_awesome-long-arrow-alt-right-2" data-name="Icon awesome-long-arrow-alt-right" d="M9.811,12.449H.375A.375.375,0,0,0,0,12.824v1.75a.375.375,0,0,0,.375.375H9.811v1.439a.75.75,0,0,0,1.28.53l2.689-2.689a.75.75,0,0,0,0-1.061l-2.689-2.689a.75.75,0,0,0-1.28.53Z" transform="translate(307.981 1378.645) rotate(-45)" fill="#a6a1d4"/>
+    <path id="Icon_awesome-long-arrow-alt-right-3" data-name="Icon awesome-long-arrow-alt-right" d="M9.81,4.691H.375A.375.375,0,0,1,0,4.316V2.566a.375.375,0,0,1,.375-.375H9.811V.752a.75.75,0,0,1,1.28-.53L13.78,2.91a.75.75,0,0,1,0,1.061L11.091,6.66a.75.75,0,0,1-1.28-.53Z" transform="translate(342.134 1390.764) rotate(-135)" fill="#a6a1d4"/>
+  </g>
+</svg>
