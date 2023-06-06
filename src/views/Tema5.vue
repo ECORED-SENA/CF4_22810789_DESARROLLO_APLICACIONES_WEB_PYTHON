@@ -65,7 +65,7 @@
         .bg-c4.p-4.py-lg-3.px-lg-3.p-xl-5(data-aos="fade-right")
           p Luego de creado el sitio a través del servicio pythonanywhere, siguiendo los pasos indicados, se continuará con su despliegue.
 
-          p.mb-0 Ahora se mostrará el paso a paso en el siguiente video. Hay que tener en cuenta que si bien el ejercicio se hace con base en el ejemplo planteado servirá de guía para que lo se pueda hacer después.
+          p.mb-0 Ahora se mostrará el paso a paso en el siguiente video. Hay que tener en cuenta que si bien el ejercicio se hace con base en el ejemplo planteado servirá de guía para que lo pueda hacer después.
       .col-xl-5.col-lg-6.d-block.d-md-none.d-lg-block
         figure.mt-4.mt-xl-0
           img(src='@/assets/curso/temas/tema5/img-1.png', alt="", style="max-width: 505px")(data-aos="zoom-in")
@@ -86,7 +86,7 @@
           .d-flex.justify-content-start.align-items-center
             img(src="@/assets/curso/temas/tema1/icon-azul-2.svg", style="width: 53px", alt="").me-3
             .bg-c2-texto
-              p.mb-2 Se ha llegado al final del componente formativo, esperando estos conocimientos aporten a su vida personal y profesional.
+              p.mb-2 Se ha llegado al final del componente formativo, esperando que estos conocimientos le aporten a su vida personal y profesional.
 
               p.mb-0 #[strong ¡Muchos éxitos!]
 </template>
